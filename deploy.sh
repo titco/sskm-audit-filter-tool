@@ -1,3 +1,2 @@
 #!/bin/bash
-# (cd live; scp -r $(pwd) titco.org@ssh.titco.org:/www/mamc-audit-filter-tool/)
-(cd live; scp -r $(pwd)"/" titco.org@ssh.titco.org:/www/mamc-audit-filter-tool/)
+scp -r live/* titco.org@ssh.titco.org:/www/sskm-audit-filter-tool/
