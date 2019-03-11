@@ -1,0 +1,387 @@
+/* * Body */
+/* ** Standard */
+body {
+    margin: 0;
+    transition-duration: 0.5s;
+}
+/* ** Double enter */
+body.doubleEnter {
+    background: repeating-linear-gradient(-45deg, #e6e6e6, #e6e6e6 5px, white 5px, white 10px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* ** Locked */
+body.locked {
+    background: repeating-linear-gradient(-45deg, #fabfba, #fabfba 5px, white 5px, white 10px);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* ** Container */
+#bodyContainer {
+    margin: 0;
+    padding: 0;
+}
+/* * Navigation bar */
+/* ** nav */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #d5eef1;
+    margin: 0;
+    padding: 0;
+    border: none;
+    z-index: 40;
+    /* border-bottom: 2px solid #8ed4dd; */
+}
+/* ** Menu */
+.menu {
+    width: 100%;
+    background: #eff8f9;
+    margin: 0;
+    padding: 0;
+}
+/* ** Buttons */
+/* *** Standard */
+.navbutton {
+    border: none;
+    background-color: #eff8f9;
+    color: black;
+    padding: 15px 10px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10pt;
+    font-family: 'HelveticaNeue-Regular', 'Helvetica Neue Regular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    transition-duration: 0.4s;
+}
+/* *** Clicked */
+.clicked {
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    background-color: #8ed4dd;
+}
+/* *** Save */
+.save {
+    background-color: #c3d8a9;
+}
+/* *** onlyReview */
+.onlyReview {
+    background-color: #c8ceea;
+}
+/* *** Focus */
+.navbutton:focus {
+    outline: 0;
+}
+/* *** Locked */
+.locked {
+    background-color: #e6e6e6;
+}
+/* *** Hover */
+.navbutton:hover {
+    background-color: #d5eef1;
+}
+.navbutton.locked:hover {
+    background-color: #cccccc;
+}
+/* ** Title */
+.titleContainer {
+    margin: 0;
+    padding: 0;
+}
+.navtitle {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    color: black;
+    background: #d5eef1;
+    font-size: 14pt;
+    font-family: 'HelveticaNeue-Regular', 'Helvetica Neue Regular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+/* * Open record pane */
+/* ** div */
+.openRecordPane {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: block;
+    background: #8ed4dd;
+    padding: 10px;
+    font-size: 10pt;
+    font-family: 'HelveticaNeue-Regular', 'Helvetica Neue Regular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    z-index: 40;
+}
+/* ** Paragraph */
+.openRecordPanep {
+    padding: 0px 0px 5px 0px;
+    margin: 0;
+}
+/* * Info pane */
+.infoPane {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 10px;
+    background: white;
+    color: black;
+    font-size: 10pt;
+    font-family: 'HelveticaNeue-Regular', 'Helvetica Neue Regular', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    display: none;
+    transition-duration: 0.4s;
+    z-index: 30;
+}
+/* * Main */
+/* ** div */
+.maindiv {
+    padding: 8px 10px;
+    display: block;
+    margin-bottom: 35px;
+    background: transparent;
+}
+/* ** Paragraph */
+/* *** Standard */
+p.standard {
+    width: 150px;
+    margin: 5px;
+    padding: 0px;
+    border: 0.5px solid #d5eef1;
+    display: inline-block;
+    font-size: 8pt;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    background: white;
+    position: relative;
+    z-index: 20;
+}
+/* *** Valid */
+p.valid {
+    border: 0.5px solid #c3d8a9;
+}
+/* *** Invalid */
+p.invalid {
+    border: 0.5px solid #fabfba;
+}
+/* *** Review */
+p.review {
+    border: 0.5px solid #c8ceea;
+}
+/* *** Hard */
+p.hard {
+    border: 0.5px solid #e6e6e6;
+}
+/* ** Input */
+/* *** Standard */
+input.standard {
+    width: 150px;
+    height: 15px;
+    margin: 0px:
+    border-style: solid;
+    border: none;
+    box-sizing: border-box;
+    outline: none;
+    color: black;
+    background-color: #eff8f9;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    font-size: 8pt;
+    text-align: center;
+}
+input.standard:focus {
+    background-color: #bbe4e9;
+    color: white;
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+/* *** Valid */
+input.valid {
+    background-color: #c3d8a9;
+}
+input.valid:focus {
+    background-color: #81be36;
+    color: white;
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+/* *** Invalid */
+input.invalid {
+    background-color: #fabfba;
+}
+input.invalid:focus {
+    background-color: #e04437;
+    color: white;
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+/* *** Review */
+input.review {
+    background: #c8ceea;
+}
+input.review:focus {
+    background: #465db9;
+    color: white;
+    font-family: 'HelveticaNeue-Bold', 'Helvetica Neue Bold', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+/* *** Locked */
+input.locked {
+    background-image: url('../img/black-lock.png');
+    background-repeat: no-repeat;
+    background-position: 135px center;
+}
+/* *** Hard */
+input.hard {
+    background: #e6e6e6;
+    background-image: url('../img/black-lock.png');
+    background-repeat: no-repeat;
+    background-position: 135px center;
+}
+/* ** Label */
+/* *** Standard */
+label.standard {
+    padding: 2px;
+    display: block;
+}
+/* *** Valid */
+/* *** Invalid */
+/* * Header */
+/* ** div */
+#header {
+    padding: 8px 10px;
+    display: block;
+    margin-bottom: 0px;
+    background: transparent;
+}
+/* ** Tear line */
+#tearLine {
+    padding: 0;
+    margin: 8px 0px 0px 0px;
+    border-top:1px dotted;
+}
+/* ** Tear paragraph */
+#tearPara {
+    padding: 0px 10px 5px 10px;
+    margin: 0;
+    color: black;
+    font-size: 8pt;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+}
+/* ** Paragraph */
+p.header {
+    border: 0.5px solid #e6e6e6;
+}
+/* ** Input */
+input.header {
+    background-color: #e6e6e6;;
+}
+/* * Footer */
+/* ** Variable pane */
+/* *** Pane */
+.variablePane {
+    width: 50%;
+    height: 35px;
+    bottom: 0px;
+    position: fixed;
+    border-radius: 25px 25px 0px 0px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    transition-duration: 0.5s;
+    background: #d5eef1;
+    opacity: 0.5;
+    z-index: 30;
+}
+.variablePane.hover {
+    height: 200px;
+    opacity: 1;
+}
+.variablePane.hoverEmpty {
+    opacity: 1;
+}
+/* *** Variable label */
+#variableLabel {
+    font-size: 10pt;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    padding: 10px 20px 10px 20px;;
+    display: inline-block;
+    margin: 0;
+}
+/* *** Info field
+/* **** Field */
+#variableInfoField {
+    height: 165px;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    background: #eff8f9;
+    display: block;
+}
+/* **** Variable description */
+#variableDescription {
+    font-size: 8pt;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    padding: 5px 20px 0px 20px;
+    display: block;
+    margin: 0;
+}
+/* **** Valid values */
+#variableValidValues {
+    font-size: 8pt;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    padding: 0px 20px 0px 20px;
+    display: block;
+    margin: 0;
+}
+/* ** Review pane */
+/* *** Pane */
+.reviewPane {
+    width: 50%;
+    height: 35px;
+    bottom: 0px;
+    right: 0px;
+    position: fixed;
+    border-radius: 25px 25px 0px 0px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    transition-duration: 0.5s;
+    background: #8ed4dd;;
+    opacity: 0.5;
+    z-index: 30;
+}
+.reviewPane.hover {
+    height: 200px;
+    opacity: 1;
+}
+.reviewPane.hoverEmpty {
+    opacity: 1;
+}
+.reviewPane.focus {
+    height: 50px;
+    opacity: 0.75;
+}
+/* **** Top */
+#reviewPaneTop {
+    
+}
+/* ***** Label */
+#reviewLabel {
+    font-size: 10pt;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    padding: 10px 20px 10px 20px;;
+    display: block;
+    margin: 0;
+}
+/* **** Bottom */
+#reviewPaneBottom {
+    height: 165px;
+    margin: 0;
+    padding: 0;
+    background: #d5eef1;
+    display: block;
+}
+/* ***** Paragraph */
+p.reviewItem {
+    padding: 5px 20px 5px 20px;
+    font-size: 10pt;
+    font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    color: black;
+    display: block;
+    background: #c8ceea;
+    margin: 0;
+}
+p.reviewItem.mustBeTrue {
+    background: #fabfba;
+}
+

@@ -1,0 +1,38 @@
+* Issues
+** Beta 1.0
+*** DONE iss-b1.0-1. HOTFIX. Fix trauma checklist variables so that not indicated has code 2 for all variables, not 999
+    CLOCK: [2017-09-15 Fri 11:54]--[2017-09-15 Fri 12:08] =>  0:14
+*** DONE iss-b1.0-2. PUSHED TO UPFIDDLE2. Injuries and ICD codes not loading
+    CLOCK: [2017-09-21 Thu 13:48]--[2017-09-21 Thu 14:05] =>  0:17
+    CLOCK: [2017-09-21 Thu 12:54]--[2017-09-21 Thu 12:55] =>  0:01
+    This is not an issue specific for TAFT but is due to a bug in the upFiddle2
+    code. Hence moved there.
+*** DONE iss-b1.0-3. Date of vital signs recording show error if before date of admission
+    CLOCK: [2017-09-22 Fri 20:17]--[2017-09-22 Fri 20:37] =>  0:20
+*** TODO iss-b1.0-4. Add additional fields for external injuries
+*** DONE iss-b1.0-5. HOTFIX. Add video links to trauma checklist variables
+    CLOCK: [2017-12-17 Sun 19:00]--[2017-12-17 Sun 19:26] =>  0:26
+*** DONE iss-b1.0-6. HOTFIX. Fix link to spinal immobilization video
+    CLOCK: [2017-12-17 Sun 19:29]--[2017-12-17 Sun 19:34] =>  0:05
+*** DONE iss-b1.0-7. HOTFIX. Wrong codes for EQ5D mobility
+    CLOCK: [2018-02-13 Tue 16:22]--[2018-02-13 Tue 16:35] =>  0:13
+*** DONE iss-b1.0-8. HOTFIX. Authentication error
+    CLOCK: [2018-02-19 Mon 15:37]--[2018-02-19 Mon 15:41] =>  0:04
+** Beta
+*** DONE iss-b-1. HOTFIX. Add 90 days to EQ5D measures
+    CLOCK: [2017-09-15 Fri 10:33]--[2017-09-15 Fri 10:43] =>  0:10
+*** DONE iss-b-2. HOTFIX. new centre ids to codebook, i.e. 1842, 2736, 4178, 9825
+    CLOCK: [2017-09-01 Fri 16:26]--[2017-09-01 Fri 16:31] =>  0:05
+*** DONE iss-b-3. HOTFIX. Fix so that injuries and surgery do not have to be double entered
+    CLOCK: [2017-09-15 Fri 10:44]--[2017-09-15 Fri 10:59] =>  0:15
+*** DONE iss-b-4. PUSHED TO UPFIDDLE2. Printing is not working, the header covers variables on page 2
+    This is not an issue specific for TAFT but is due to a bug in the upFiddle2
+    code. Hence moved there.
+*** DONE iss-b-5. HOTFIX. Add 2 hour time limite to trauma checklist variables
+    CLOCK: [2017-09-15 Fri 11:00]--[2017-09-15 Fri 11:24] =>  0:24
+*** DONE iss-b-6. HOTFIX. Add not indicated as option for trauma checklist variables
+    CLOCK: [2017-09-15 Fri 11:24]--[2017-09-15 Fri 11:45] =>  0:21
+
+
+
+
